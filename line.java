@@ -96,7 +96,20 @@ public class linecalculationUC1 {
 		} else {
 			System.out.println("Both Lines are not equal");
 		}
-		
+			int result = Integer.valueOf(LengthofLine1).compareTo(LengthofLine2);
+		if (result > 0) {
+			System.out.println("Lengthof Line1 is greater Than Line2");
+		} else if (result < 0) {
+			System.out.println("Length of Line2 is greather than Line1 ");
+		} else
+
+		{
+			System.out.println("Both lines are equal");
 		}
 	}
+
+}
+
+		
+	
 
